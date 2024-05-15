@@ -3,6 +3,7 @@
 rm -rf ./.amplify-hosting
 
 mkdir -p ./.amplify-hosting/compute
+mkdir -p ./.amplify-hosting/static
 
 cp -r ./dist/amplify-ssr-angular ./.amplify-hosting/compute/default
 
